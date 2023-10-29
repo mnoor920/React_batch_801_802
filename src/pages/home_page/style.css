@@ -1,0 +1,106 @@
+.section img{
+    width: 80vw;
+}
+.section{
+    text-align: center;
+    position: relative;
+}
+.section2{
+    
+    padding-left: 3.5rem;
+}
+.card img{
+    width: 40px;
+}
+.cardp{
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+.card{
+    background-color: #fff;
+    width: 32vw;
+    position: absolute;
+    top: 25vw;
+    border-radius: 20px;
+    left: 10vw;
+    padding: 2.5rem;
+    text-align: start;
+    box-shadow: 2px 2px 5px gray;
+}
+.card h5{
+    background-color: #4b6bfb;
+    width: fit-content;
+    color: #fff;
+    padding: .3rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.cardf{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(115, 115, 115);
+}
+.car2{
+    margin-top: 7rem;
+    background-color: #E8E8EA;
+    padding: 1.2rem 0;
+    width: 60%;
+}
+
+h4:nth-child(3),
+h4:nth-child(1){
+    font-size: smaller;
+    color: gray;
+}
+h4:nth-child(2){
+    font-size: large;
+    opacity: .6;
+}
+.section2 h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 4.5rem;
+    margin-bottom: 3rem;
+}
+.images{
+    width: 23rem;
+}
+.cardp2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+.Card2{
+    width: 25rem;
+    padding: 1rem;
+    border: 1px solid  rgb(187, 182, 182);
+    border-radius: 10px;
+}
+h3{
+    font-size: smaller;
+    background-color:#f6f8ff;
+    color:  #4B6BFB;
+    width: fit-content;
+    padding: .5rem;
+    line-height: 1.3;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+}
+.section2 button{
+    background-color: #fff;
+    padding: .8rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    border: 1px solid rgb(181, 178, 178);
+}
+#card2{
+    margin-top: 5rem;
+}

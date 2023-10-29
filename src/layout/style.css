@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 4rem 5rem 0 5rem;
+}
+.main3{
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem 0 4rem;
+    background-color: #E8E8EA;
+    margin-top: 7rem;
+}
+.lastpart span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lastpart span::after{
+    content: 'Blog';
+    font-weight: 900;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navs{
+    display: flex;
+    gap: 1.5rem;
+}
+.changer{
+    background-color: #F4F4F5 ;
+    padding: .4rem 2rem .4rem .2rem;
+    border-radius: 20px;
+}
+.changer img{
+    position: relative;
+    top: .5rem;
+}
+.search{
+    position: absolute;
+    top: 4.5rem;
+    font-size: 25px;
+    right: 10.5rem;
+    cursor: pointer;
+}
+#search{
+    background-color: #F4F4F5;
+    padding: .6rem;
+    border: none;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:3rem ;
+    border-bottom: 1px solid gray;
+}
+.col2,
+.col3,
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+}
+.col1 p{
+    width: 15rem;
+    opacity: .7;
+}
+.lcard{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 20vw;
+    position: relative;
+    background-color: #fff;
+}
+.lcard h5{
+    font-size: larger;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.lcard p{
+    font-size: small;
+    margin-bottom: 1.8rem;
+}
+#email{
+    padding: .6rem;
+    display: block;
+    width: 80%;
+}
+.lcard button{
+    background-color:  #4B6BFB;
+    padding: .6rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    border: none;
+    width: 80%;
+}
+.lcard i{
+    font-size: 20px;
+    right: 2.5rem;
+    top: 6.8rem;
+    cursor: pointer;
+    position: absolute;
+}
+.col1 h6{
+    display: inline-block;
+    font-weight: 700;
+    font-size: large;
+}
+.h61{
+    margin-top: 1.5rem;
+}
+.lastdiv{
+    display: flex;
+    gap:.5rem;
+}
+.lastpart{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastdiv2{
+    display: flex;
+    gap: 1.5rem;
+}
